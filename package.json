@@ -1,20 +1,28 @@
 {
-  "name": "openclaw",
+  "name": "kopsclaw",
   "version": "2026.4.14",
-  "description": "Multi-channel AI gateway with extensible messaging integrations",
+  "description": "Smartest Global Autonomous Life-Easing Assistant",
   "keywords": [],
-  "homepage": "https://github.com/openclaw/openclaw#readme",
+  "homepage": "https://github.com/Kops147/KopsClaw#readme",
   "bugs": {
-    "url": "https://github.com/openclaw/openclaw/issues"
+    "url": "https://github.com/Kops147/KopsClaw/issues"
   },
   "license": "MIT",
   "author": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/openclaw/openclaw.git"
+    "url": "git+https://github.com/Kops147/KopsClaw.git"
+  },
+  "extensions": {
+    "deny": [
+      "amazon-bedrock-mantle",
+      "webhooks",
+      "matrix-qa",
+      "synology-chat"
+    ]
   },
   "bin": {
-    "openclaw": "openclaw.mjs"
+    "kopsclaw": "kopsclaw.mjs"
   },
   "directories": {
     "doc": "docs",
