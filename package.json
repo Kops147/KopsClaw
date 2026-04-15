@@ -31,7 +31,7 @@
   "files": [
     "CHANGELOG.md",
     "LICENSE",
-    "openclaw.mjs",
+    "kopsclaw.mjs",
     "README.md",
     "assets/",
     "dist/",
